@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="styles2.css" as="style">
+    <link rel="stylesheet" href="Styles2.css">
+    <link rel="preload" href="css/Normalize.css" as="style">
+    <link rel="stylesheet" href="css/Normalize.css">
+    <title>Advanced Search</title>
+</head>
+
+<body>
+    <nav class="navegacion">
+        <a href="google_images.html" class="navegacion__img">Images</a>
+        <a href="Index.html" class="navegacion__advanced">Google Search</a>
+        <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-dots-circle-horizontal"
+                width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#9e9e9e" fill="none"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                <path d="M8 12l0 .01" />
+                <path d="M12 12l0 .01" />
+                <path d="M16 12l0 .01" />
+            </svg>
+        </a>
+        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user-circle" width="44"
+                height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#9e9e9e" fill="none" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                <path d="M12 10m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                <path d="M6.168 18.849a4 4 0 0 1 3.832 -2.849h4a4 4 0 0 1 3.834 2.855" />
+            </svg></a>
+        <a></a>
+    </nav>
+    <h1 class="contenedorG__titulo">Advanced Search</h1>
+
+    <form class="contenedorG" action="https://www.google.com/search" method="GET">
+        <p class="contenedorG__titulo2">Show pages containing...</p>
+        <p class="contenedorG__titulo3">To do this in the search box</p>
+        <label class="contenedorG__label1">Search for all these terms:</label>
+        <input class="contenedorG__input" type="text" id="all" name="as_q" required><br><br>
+        <label class="contenedorG__label2">The important words: <span>Tricolor Rat Terrier.</span></label>
+        <label class="contenedorG__label1" for="exact">Buscar esta palabra o frase exacta:</label>
+        <input class="contenedorG__input" type="text" id="exact" name="as_epq"><br><br>
+        <label class="contenedorG__label3">Enter the exact words in quotation marks: <span>"Rat Terrier"</span></label>
+        <label class="contenedorG__label1" for="any">Search for this exact word or phrase:</label>
+        <input class="contenedorG__input" type="text" id="any" name="as_oq"><br><br>
+        <label class="contenedorG__label4">Enter OR between the words you want: <span>Miniature OR
+                standard.</span></label>
+        <label class="contenedorG__label1" for="none">Exclude these words:</label>
+        <input class="contenedorG__input" type="text" id="none" name="as_eq"><br><br>
+        <label class="contenedorG__label5">Ingresa un signo menos justo delante de las palabras que no deseas que
+            aparezcan:<span>-Roedor, -"Jack Russell"</span> </label>
+        <button class="formulario__button2" type="submit" class="boton-buscar">Advanced Search</button>
+    </form>
+    <footer>
+        <div class="contenido"></div>
+        <div class="footer">
+            <div class="footer__con">
+                <h2>Colombia</h2>
+                <div class="Enlaces">
+                    <a href="https://about.google/?fg=1" class="Enlaces__item">Sobre Google</a>
+                    <a href="https://ads.google.com/intl/es-419_co/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1%21o2&fg=1"
+                        class="Enlaces__item">Publicidad</a>
+                    <a href="https://smallbusiness.withgoogle.com/intl/es-419_co/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1%21o2&gmbsrc=ww-ww-et-gs-z-gmb-s-z-u%7Esb-g4sb_srvcs-u&c=CO#"
+                        class="Enlaces__item">Negocios</a>
+                    <a href="https://www.google.com/search/howsearchworks/?fg=1" class="Enlaces__item separador">Como
+                        funciona la busqueda</a>
+                    <a href="https://policies.google.com/privacy?hl=es-419&fg=1"
+                        class="Enlaces__item separador1">Privacidad</a>
+                    <a href="https://policies.google.com/terms?hl=es-419&fg=1" class="Enlaces__item">Condiciones</a>
+                    <a href="#" class="Enlaces__item">Preferencias</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoogleImages</title>
+    <link rel="preload" href="Styles2.css" as="style">
+    <link rel="stylesheet" href="styles2.css">
+    <link rel="preload" href="css/Normalize.css" as="style">
+    <link rel="stylesheet" href="css/Normalize.css">
+</head>
+
+<body>
+    <nav class="navegacion">
+        <a href="Index.html" class="navegacion__img">GoogleSearch</a>
+        <a href="google_advanced.html" class="navegacion__advanced">Advanced Search</a>
+        <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-dots-circle-horizontal"
+                width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#9e9e9e" fill="none"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                <path d="M8 12l0 .01" />
+                <path d="M12 12l0 .01" />
+                <path d="M16 12l0 .01" />
+            </svg>
+        </a>
+        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user-circle" width="44"
+                height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#9e9e9e" fill="none" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                <path d="M12 10m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                <path d="M6.168 18.849a4 4 0 0 1 3.832 -2.849h4a4 4 0 0 1 3.834 2.855" />
+            </svg></a>
+    </nav>
+    <div class="logo">
+        <img src="img/googlelogo_light_color_272x92dp.png" alt="Google">
+        <p>Images</p>
+    </div>
+    <div class="contenedor">
+        <form action="https://www.google.com/search" method="GET">
+            <input type="hidden" name="tbm" value="isch">
+            <input class=" formulario__bar" id="query" type="text" name="q" required>
+            <input class="formulario__button" type="submit" value="Search">
+        </form>
+    </div>
+    <footer>
+        <div class="contenido"></div>
+        <div class="footer">
+            <div class="footer__con">
+                <h2>Colombia</h2>
+                <div class="Enlaces">
+                    <a href="https://about.google/?fg=1" class="Enlaces__item">Sobre Google</a>
+                    <a href="https://ads.google.com/intl/es-419_co/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1%21o2&fg=1"
+                        class="Enlaces__item">Publicidad</a>
+                    <a href="https://smallbusiness.withgoogle.com/intl/es-419_co/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1%21o2&gmbsrc=ww-ww-et-gs-z-gmb-s-z-u%7Esb-g4sb_srvcs-u&c=CO#"
+                        class="Enlaces__item">Negocios</a>
+                    <a href="https://www.google.com/search/howsearchworks/?fg=1" class="Enlaces__item separador">Como
+                        funciona la busqueda</a>
+                    <a href="https://policies.google.com/privacy?hl=es-419&fg=1"
+                        class="Enlaces__item separador1">Privacidad</a>
+                    <a href="https://policies.google.com/terms?hl=es-419&fg=1" class="Enlaces__item">Condiciones</a>
+                    <a href="#" class="Enlaces__item">Preferencias</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
